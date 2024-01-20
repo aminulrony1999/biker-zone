@@ -1,7 +1,7 @@
 import React from "react";
 const Main = () => {
   return <div className="md:container md:mx-auto">
-    <p>I am from main</p>
+    <h1>I am from Main part</h1>
   </div>;
 };
 
