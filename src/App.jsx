@@ -5,7 +5,7 @@ const App = () => {
     <div>
       <nav>
         <div className="navbar bg-base-100">
-          <div className="navbar-start">
+          <div className="flex-1">
             <div className="dropdown">
               <div
                 tabIndex={0}
@@ -29,7 +29,7 @@ const App = () => {
               </div>
               <ul
                 tabIndex={0}
-                className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
+                className="menu menu-sm text-base dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
               >
                 <li>
                   <a>Home</a>
@@ -45,10 +45,10 @@ const App = () => {
                 </li>
               </ul>
             </div>
-            <a className="btn btn-ghost text-xl">Biker Zone</a>
+            <a className="btn btn-ghost text-4xl">Biker Zone</a>
           </div>
           <div className="navbar-center hidden lg:flex">
-            <ul className="menu menu-horizontal px-1">
+            <ul className="menu menu-horizontal text-base px-1">
               <li>
                 <a>Home</a>
               </li>
@@ -63,8 +63,8 @@ const App = () => {
               </li>
             </ul>
           </div>
-          <div className="navbar-end">
-            <a className="btn bg-[#E76F51]">Login</a>
+          <div>
+            <a className="btn bg-bike-primary text-white">Login</a>
           </div>
         </div>
       </nav>
