@@ -3,6 +3,7 @@ import "./App.css";
 const App = () => {
   return (
     <div>
+      <header className="md:container md:mx-auto">
       <nav>
         <div className="navbar bg-base-100">
           <div className="flex-1">
@@ -68,6 +69,9 @@ const App = () => {
           </div>
         </div>
       </nav>
+      </header>
+      <main className="md:container md:mx-auto"></main>
+      <footer></footer>
     </div>
   );
 };
