@@ -224,11 +224,11 @@ const Main = () => {
         <h3 className="text-5xl text-center font-semibold mb-6">
           Frequently Asked <span className="text-bike-primary">Questions</span>
         </h3>
-        <div className="hero min-h-screen bg-base-200">
-          <div className="hero-content flex-col lg:flex-row">
-            <img src={faq} className="max-w-sm rounded-lg shadow-2xl" />
+        <div className="hero min-h-screen">
+          <div className="hero-content flex-col lg:flex-row lg:gap-24">
+            <img src={faq} className="max-w-sm rounded-lg" />
             <div>
-              <div className="join join-vertical w-full">
+              <div className="join join-vertical w-full gap-7">
                 <div className="collapse collapse-arrow join-item border border-base-300">
                   <input type="radio" name="my-accordion-4" checked="checked" />
                   <div className="collapse-title text-xl font-medium">
