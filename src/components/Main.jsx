@@ -9,10 +9,10 @@ const Main = () => {
       <section></section>
       {/* latest bike */}
       <section className="my-32">
-        <h3 className="text-5xl text-center font-semibold">Latest Bikes</h3>
-        <div className="grid grid-cols-1 lg:grid-cols-3 justify-center">
+        <h3 className="text-5xl text-center font-semibold mb-6">Latest Bikes</h3>
+        <div className="grid gap-5 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
           {/* first card */}
-          <div className="card w-96 bg-base-100 shadow-xl">
+          <div className="card bg-base-100 shadow-xl">
             <figure>
               <img src={latest1} alt="Shoes" />
             </figure>
@@ -30,7 +30,7 @@ const Main = () => {
             </div>
           </div>
           {/* second card */}
-          <div className="card w-96 bg-base-100 shadow-xl">
+          <div className="card bg-base-100 shadow-xl">
             <figure>
               <img src={latest2} alt="Shoes" />
             </figure>
@@ -48,7 +48,7 @@ const Main = () => {
             </div>
           </div>
           {/* third card */}
-          <div className="card w-96 bg-base-100 shadow-xl">
+          <div className="card bg-base-100 shadow-xl">
             <figure>
               <img src={latest3} alt="Shoes" />
             </figure>
