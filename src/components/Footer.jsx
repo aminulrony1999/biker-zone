@@ -10,7 +10,7 @@ const Footer = () => {
           <p>
             Bikerz Zone
             <br />
-            Providing reliability tech since 2020
+            Providing reliability service since 2020
           </p>
         </aside>
         <nav>
