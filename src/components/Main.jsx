@@ -10,30 +10,40 @@ const Main = () => {
       {/* latest bike */}
       <section className="my-32">
         <h3 className="text-5xl text-center font-semibold">Latest Bikes</h3>
-        <div>
+        <div className="grid grid-cols-1 lg:grid-cols-3 justify-center">
           {/* first card */}
           <div className="card w-96 bg-base-100 shadow-xl">
             <figure>
-              <img src={latest3} alt="Shoes" />
+              <img src={latest1} alt="Shoes" />
             </figure>
             <div className="card-body">
-              <h2 className="card-title">Shoes!</h2>
-              <p>If a dog chews shoes whose shoes does he choose?</p>
-              <div className="card-actions justify-end">
-                <button className="btn btn-primary">Buy Now</button>
+              <h2 className="card-title text-3xl">Ducati XDIAVEL S-73</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus,
+                fermentum amet faucibus sed id nisi lectus at.
+              </p>
+              <div className="card-actions">
+                <button className="btn btn-primary bg-bike-primary text-white border-none">
+                  Read More
+                </button>
               </div>
             </div>
           </div>
           {/* second card */}
           <div className="card w-96 bg-base-100 shadow-xl">
             <figure>
-              <img src={latest2} />
+              <img src={latest2} alt="Shoes" />
             </figure>
             <div className="card-body">
-              <h2 className="card-title">Shoes!</h2>
-              <p>If a dog chews shoes whose shoes does he choose?</p>
-              <div className="card-actions justify-end">
-                <button className="btn btn-primary">Buy Now</button>
+              <h2 className="card-title text-3xl">Motorcycles & Scooters</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus,
+                fermentum amet faucibus sed id nisi lectus at.
+              </p>
+              <div className="card-actions">
+                <button className="btn btn-primary bg-bike-primary text-white border-none">
+                  Read More
+                </button>
               </div>
             </div>
           </div>
@@ -43,10 +53,15 @@ const Main = () => {
               <img src={latest3} alt="Shoes" />
             </figure>
             <div className="card-body">
-              <h2 className="card-title">Shoes!</h2>
-              <p>If a dog chews shoes whose shoes does he choose?</p>
-              <div className="card-actions justify-end">
-                <button className="btn btn-primary">Buy Now</button>
+              <h2 className="card-title text-3xl">2021 Honda CBR500R</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus,
+                fermentum amet faucibus sed id nisi lectus at.
+              </p>
+              <div className="card-actions">
+                <button className="btn btn-primary bg-bike-primary text-white border-none">
+                  Read More
+                </button>
               </div>
             </div>
           </div>
